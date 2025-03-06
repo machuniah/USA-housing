@@ -6,31 +6,40 @@ This project takes a deep dive into the data to uncover trends . We’ll explore
 
 ## What our project entails
 
-- House Price Trends  – See how home prices vary across different properties.
+- **House Price Trends** – See how home prices vary across different properties.
 
-- Feature Relationships – Identify which factors play the biggest role in pricing.
+- **Feature Relationships** – Identify which factors play the biggest role in pricing.
 
-- Scatter Plots  – Discover connections between square footage, crime rate, and price.
+- **Scatter Plots**  – Discover connections between square footage, crime rate, and price.
 
-- Box Plot Analysis – Compare house prices across different bedroom counts.
+- **Box Plot Analysis** – Compare house prices across different bedroom counts.
 
-- Pair Plots  – Explore how multiple features interact at a glance.
+- **Pair Plots and Heatmaps**  – Explore how multiple features interact at a glance.
+
+### Data Visualization
+ We performed several visual analyses to gain insights into housing prices:
+- **House Price Distribution:** A histogram to show how prices are distributed.
+- **Feature Correlation Heatmap:** Identifies how different factors correlate with house prices.
+- **Scatter Plots:**
+  - **Square Feet vs. Price:** Larger homes tend to have higher prices.
+  - **Crime Rate vs. Price:** Higher crime rates are associated with lower house prices.
+  - **Year Built vs. Price:** Examined the impact of house age on price.
+- **Box Plot Analysis:** Compared house prices based on the number of bedrooms.
 
 ## About the Data
 
-- Dataset: usa_housing_kaggle.csv
+- **Dataset:** usa_housing_kaggle.csv
 
-- Key Features:
+- **Key Features:**
 
- * SquareFeet – The size of the house.
-
- * Bedrooms – How many bedrooms the home has.
-
- * Bathrooms – Number of bathrooms.
-
- * CrimeRate – The crime rate in the neighborhood.
-
- * Price – The selling price of the house.
+ | Feature      | Description |
+  |-------------|-------------|
+  | **SquareFeet** | The size of the house (in sq ft) |
+  | **Bedrooms**  | Number of bedrooms |
+  | **Bathrooms** | Number of bathrooms |
+  | **CrimeRate** | Crime rate in the neighborhood |
+  | **YearBuilt** | The year the house was built |
+  | **Price**     | Selling price of the house |
 
 ## Tools Used
 
@@ -48,19 +57,28 @@ To run an analysis on our project, follow these steps:
 + Fork the repository
 + Clone this repository:
 
-  * git clone https://github.com/your-username/usa-housing-analysis.git
-  * cd usa-housing-analysis
+   ```bash
+  git clone https://github.com/your-username/usa-housing-analysis.git
+  cd usa-housing-analysis
+  ```
 
 + Install the necessary libraries:
 
-  * pip install pandas matplotlib seaborn jupyter
+  ```bash
+  pip install pandas matplotlib seaborn jupyter
+  ```
 
 + Launch the Jupyter Notebook:
 
-  * jupyter notebook "usa housing.ipynb"
+  ```bash
+  jupyter notebook "usa housing.ipynb"
+  ```
 
-Next Steps
+### Next Steps
 
 + Dig deeper into the data by engineering new features.
 
-+ Experiment with machine learning models to predict house prices.# USA-housing
++ Experiment with machine learning models to predict house prices.
+
++ Perform additional statistical tests to validate insights.
+
